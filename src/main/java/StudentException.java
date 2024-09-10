@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class StudentException {
+public class StudentException extends Exception{
+    StudentException(String message){
+        super(message);
+    }
 }
